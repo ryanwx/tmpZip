@@ -1,0 +1,7 @@
+cd /tmp/
+tar -zxvf doZenGinByins.tar.gz
+cd doZenGinByins
+chmod u+x settle.test
+./settle.test -test.run TestZenGinFileByIns -test.v 01160001 2021-03-15 /fil/in/20210315 > excute0315.log
+
+
