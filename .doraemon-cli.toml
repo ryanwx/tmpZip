@@ -1,0 +1,10 @@
+AppName = "doraemon-cli"
+[Mcc]
+    [Db.Mc]
+        Name = "mc"
+        Addr = "mongodb://127.0.0.1:27017/mastercard"
+        Database = "ecom0310"
+
+[Output]
+    RootDir = "D:\\Users\\ryan.zhu\\share-dev\\out"
+    ReportDirName = "report"		
